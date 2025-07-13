@@ -1,0 +1,20 @@
+[project]
+name = "elk0"
+version = "0.1.0"
+description = "Repo for ELK0 (EE LiveKit v0)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flake8>=7.3.0",
+    "livekit-agents[cartesia,deepgram,openai,rime,silero,turn-detector]~=1.0",
+    "livekit-api>=1.0.3",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "mypy>=1.16.1",
+    "pip>=25.1.1",
+    "pycodestyle>=2.14.0",
+    "pyflakes>=3.4.0",
+    "pylint>=3.3.7",
+    "pytest>=8.4.1",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.0",
+]
